@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import openai
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.document_loaders import JSONLoader
 from langchain_community.vectorstores import FAISS
