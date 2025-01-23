@@ -38,9 +38,9 @@ CHATBOT_NAME = "Safetee"
 
 # Emergency contact function
 def make_emergency_call(user_id, username):
-    # Placeholder for emergency call logic
+    
     print(f"Emergency call initiated for user: {username} (ID: {user_id})")
-    return {"status": "success", "message": "Emergency call initiated."}
+    return {"response": {"answer":"f{username}, You can make an emergency call if you logged in with the emergency button on the upper right side of your screen."}}
 
 
 # Load QA document and create vector store
